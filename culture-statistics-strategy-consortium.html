@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+</head>
+<body>
+<img src="https://media.cntraveler.com/photos/622711e7d55b99732c8d345e/master/w_2580%2Cc_limit/Alabama-LittleRiverCanyon-GettyImages-502020667.jpg" class="logo__image">
+
+
+<script  type='text/javascript'>
+
+    console.log("%c Inline script starts.", "font-size: 20px; font-weight: bold");
+
+  // Get URL
+
+  let url = window.location.href;
+
+  // Get Element
+
+  let logo = document.querySelector(".logo__image");
+
+  // Check if URL contains the keyword
+
+if(url.indexOf("culture-statistics-strategy-consortium") > -1 ) {
+
+      // Change the image source
+logo.src = "https://s3.ca-central-1.amazonaws.com/ehq-production-canada/025ed41b95a43e353f068a273068525db8be2422/original/1648737543/0c74044eddb007217166d57db5e21b49_PRG_Logo.png?1648737543";
+      
+  }
+
+
+
+
+console.log("%c Inline Script ends.", "font-size: 20px; font-weight: bold");
+
+</script>
+
+
+</body>
+</html>
