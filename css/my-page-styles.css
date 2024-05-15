@@ -48,7 +48,7 @@ a {
 /* HEADER STYLE */
 
 .header {
-  background: url(http://loremflickr.com/2000/1000/aerial) no-repeat;
+  background: url(http://loremflickr.com/2000/1000/palmtree) no-repeat;
   background-size: cover;
   background-color: #364156;
   height: 600px;
@@ -79,6 +79,11 @@ a {
   padding: 12px 22px;
   margin-top: 15px;
   border-radius: 3px;
+  cursor: pointer;
+}
+
+.role:hover {
+  background: #ce362d;
 }
 
 /* SECTION STYLES */
